@@ -1,0 +1,47 @@
+{
+  // cross-platform editor configs
+  "files.eol": "\n",
+  "editor.tabSize": 2,
+  "files.encoding": "utf8",
+  "editor.rulers": [80], // recommend 1 cjk character as width as 2 alphabets
+
+  // highlight marks
+  "todo-tree.filtering.includeHiddenFiles": true,
+  "todo-tree.filtering.excludeGlobs": [
+    "**/node_modules",
+    "**/.git",
+    "**/.commitlintrc.*"
+  ],
+  "todo-tree.general.tags": [
+    "delete", // mark temporary codes which will be deleted soon
+    "bug", // mark bugs that was not fixed yet
+    "todo", // mark something unfinished
+    "unsure" // mark something unsure (mostly used in collaborations)
+  ],
+  "todo-tree.highlights.customHighlight": {
+    "delete": {
+      "icon": "terminal",
+      "iconColour": "#db7d7d",
+      "foreground": "#252a2e",
+      "background": "#db7d7d"
+    },
+    "bug": {
+      "icon": "alert",
+      "iconColour": "#f2cd83",
+      "foreground": "#252a2e",
+      "background": "#f2cd83"
+    },
+    "todo": {
+      "icon": "check-circle",
+      "iconColour": "#8ed683",
+      "foreground": "#252a2e",
+      "background": "#8ed683"
+    },
+    "unsure": {
+      "icon": "question",
+      "iconColour": "#92cbde",
+      "foreground": "#252a2e",
+      "background": "#92cbde"
+    }
+  }
+}
