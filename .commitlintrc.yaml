@@ -1,0 +1,18 @@
+extends:
+  - '@commitlint/config-conventional'
+
+rules:
+  'type-enum':
+    - 2
+    - always
+    - # follow conventional commit specifications.
+      # see https://www.conventionalcommits.org/
+      - feat # (feature) add a new feature.
+      - fix # fix an existing bug.
+
+      # customized keywords.
+      - optm # (optimization) improve performance without new features.
+      - reco # (record) set an recovery point with no new feature finished.
+      - mark # add highlighting marks.
+      - test # add or manifest testings.
+      - doc # add docs or comments only.

@@ -2,5 +2,13 @@
   "name": "vscode-themes",
   "description": "Color themes for vscode as a monorepo.",
   "version": "0.0.0",
-  "private": true
+  "private": true,
+  "scripts": {
+    "commitlint.init": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "husky": "^8.0.1"
+  }
 }
