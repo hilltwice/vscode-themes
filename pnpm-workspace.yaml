@@ -1,0 +1,6 @@
+# You can also use yarn or npm rather than pnpm here.
+# But attention that there are no monorepo config for yarn or npm.
+# Pnpm is the only recommended package manager for node in this monorepo.
+packages:
+  - abstract-layer
+  - abyss-color-theme
